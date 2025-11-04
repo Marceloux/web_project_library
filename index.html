@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header id="topo" class="header">
+        <nav class="nav">
+          <a class="nav__logo" href="#topo" aria-label="Triple Peaks Library">
+            <img src="images/logo.png" alt="Logo Triple Peaks" />
+          </a>
+
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#staff">Escolhas da Equipe</a></li>
+            <li><a class="nav__link" href="#events">Eventos</a></li>
+            <li><a class="nav__link" href="#membership">Escolhas da Equipe</a></li>
+            <li><a class="nav__link" href="#contacts">Contatos</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas use
+              esse belo local para trabalhar ou estudar. Este é um lugar legal
+              para estudantes legais!
+            </p>
+          </div>
+          <img class="header__image" src="images/library.png" alt="Ilustração da Biblioteca Triple Peaks"/>
+        </div>
+
+        <div class="header__footer">
+          Triple Peaks, 200 Success Avenue
+        </div>
+      </header>
+
+      <main class="content" aria-label="Conteúdo principal">
+        <section class="staff" id="staff" aria-label="Escolhas da Equipe">
+          <h2 class="staff__title">Escolhas da Equipe</h2>
+          <p class="staff__subtitle">Que nossos leitores adoram</p>
+
+          <div class="staff__cards">
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">Algoritmos: Teoria e Prática</h3>
+                <p class="card__text">
+                  O nome deste livro é autoexplicativo; é uma introdução adequada aos
+                  algoritmos! Introdução aos algoritmos, ou CLRS, em referência aos
+                  sobrenomes dos autores, é aprofundada e abrange uma variedade
+                  de algoritmos em vários capítulos independentes.
+                </p>
+              </div>
+              <div class="card__footer">
+                Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  A Estrutura e Interpretação de Programas de Computador (sigla em inglês, SICP)
+                </h3>
+                <p class="card__text">
+                  Esse é um dos melhores livros para aprender os fundamentos da
+                  programação. Apresentado pelo MIT em um de seus cursos básicos de
+                  programação, o SICP é um livro de programação de uso geral que usa
+                  Esquema para ilustrar vários conceitos de programação.
+                </p>
+              </div>
+              <div class="card__footer">
+                Harold Abelson, Gerald Jay Sussman, Julie Sussman
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  O Codificador Limpo: Um Código de Conduta para Programadores Profissionais
+                </h3>
+                <p class="card__text">
+                  Compilado pelo experiente engenheiro de software e autor Robert C. Martin
+                  (também conhecido como Tio Bob), este livro aborda as técnicas e ferramentas
+                  do verdadeiro artesanato de software. Ele explica como escrever um código
+                  limpo e demonstra como cultivar a atitude de um programador profissional
+                  qualificado.
+                </p>
+              </div>
+              <div class="card__footer">Steve McConnell</div>
+            </article>
+
+            <article class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Code Complete: Um Manual Prático de Construção de Software
+                </h3>
+                <p class="card__text">
+                  Quer saber como escrever um código robusto, independentemente da
+                  arquitetura por trás da linguagem de programação escolhida? Em seguida,
+                  considere a leitura do livro: Code Complete: Um Manual Prático de
+                  Construção de Software. Ele abrange de forma geral tudo relacionado a uma
+                  boa estrutura de código.
+                </p>
+              </div>
+              <div class="card__footer">Steve McConnell</div>
+            </article>
+          </div>
+        </section>
+  <section class="events" id="events" aria-label="Próximos Eventos">
+      <div class="events__info">
+        <h2 class="events__title">Próximos eventos:</h2>
+        <h3 class="events__subtitle">Em homenagem à Joan Feynman: Mulheres na Astrofísica</h3>
+        
+        <div class="info-line">
+            <img class="events_calendar" src="images\icon_calendar.png" alt="icon_calendar">
+            <span class="info1">Segunda-feira, 12 de janeiro</span>
+        </div>
+        <div class="info-line">
+            <img class="events_pin" src="images\icon_pin.png" alt="icon_pin">
+            <span class="info2">Sala de Conferências da Biblioteca Triple Peaks</span>
+        </div>
+        
+        <p class="events__description">
+            Nesse evento, que homenageia o homônimo da biblioteca, nossa palestrante convidada nos levará a uma jornada explorando algumas das mais proeminentes pesquisadoras do mundo da ciência espacial. É fácil acreditar na ideia equivocada de que esse campo era dominado principalmente por homens, mas nossa palestra tem como objetivo mudar essa visão e provar que isso não acontece desde pelo menos o século XVIII.
+        </p>
+        
+        <a href="#" class="events__link">Mais eventos →</a>
+      </div>  
+      <div class="events__gallery">
+          <img class="cafe-image" src="images\cafe.png" alt="Cafeteria Triple Peaks">
+          <div class="people-grid">
+              <div class="person">
+                  <img src="images\person_feynman.png" alt="Joan Feynman">
+                  <span>Joan Feynman</span>
+              </div>
+              <div class="person">
+                  <img src="images\person_tarter.png" alt="Jill Tarter">
+                  <span>Jill Tarter</span>
+              </div>
+              <div class="person">
+                  <img src="images\person_burbidge.png" alt="Margaret Burblöge">
+                  <span>Margaret Burblöge</span>
+              </div>
+              <div class="person">
+                  <img src="images\person_mitchell.png" alt="Maria Mitchell">
+                  <span>Maria Mitchell</span>
+              </div>
+              <div class="person">
+                  <img src="images\person_cannon.png" alt="Annie Jump Cannon">
+                  <span>Annie Jump Cannon</span>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="membership" id="membership" aria-label="Ser Membro">
+    <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
+    <div class="membership__steps">
+      <div class="membership__step">
+        <h3>Passo 1 →</h3>
+        <p>Preencha o formulário de filiação online.</p>
+      </div>
+      <div class="membership__step">
+        <h3>Passo 2 →</h3>
+        <p>Venha retirar seu cartão da biblioteca na recepção.</p>
+      </div>
+      <div class="membership__step">
+        <h3>Passo 3 →</h3>
+        <p>Assine o verso do cartão.</p>
+      </div>
+      <div class="membership__step">
+        <h3>Passo 4 ✦</h3>
+        <p>Aproveite todos os incríveis benefícios de ser membro!</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer" id="contacts">
+  <div class="footer__content">
+    <div class="footer__logo">
+      <img src="images/logo_white.png" alt="Biblioteca Triple Peaks">
+    </div>
+    <div class="footer__info">
+      <div>
+        <h4>Horário de Funcionamento</h4>
+        <p>Dias úteis: 9h - 20h</p>
+        <p>Finais de semana: 10h às 18h</p>
+      </div>
+      
+      <div class="div_redes">
+        <h4>Redes Sociais</h4>
+        <div class="footer__redes">
+          <div class="image_redes"><img src="images/facebook_white.png" alt="facebook icon"></div>
+          <p>Facebook</p>
+        </div>
+        <div class="footer__redes">
+          <div class="image_redes"><img src="images/instagram_white.png" alt="instagram icon"></div>
+          <p>Instagram</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="footer__copyright">© 2025 Marcelo Borges</p>
+</footer>
+      </main>
+      <footer id="contacts"></footer>
+    </div>
+  </body>
+</html>
