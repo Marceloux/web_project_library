@@ -84,8 +84,7 @@
 .header__footer {
   color: #777;
   text-align: end;
-  padding: 3rem;
-  margin-right: 90px;
+  padding: 0px;
 }
 
 .header__address {
