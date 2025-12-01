@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Biblioteca Triple Peaks</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
     <div class="page">
       <header id="topo" class="header">
@@ -19,11 +18,10 @@
             <img src="./images/logo.png" alt="Triple Peaks Library Logo" class="nav__logo" />
           </a>
 
-
           <ul class="nav__links">
             <li><a class="nav__link" href="#staff">Escolhas da Equipe</a></li>
             <li><a class="nav__link" href="#events">Eventos</a></li>
-            <li><a class="nav__link" href="#membership">Escolhas da Equipe</a></li>
+            <li><a class="nav__link" href="#membership">Seja Membro</a></li>
             <li><a class="nav__link" href="#contacts">Contatos</a></li>
           </ul>
         </nav>
@@ -38,7 +36,7 @@
               para estudantes legais!
             </p>
           </div>
-          <img class="header__image" src="images/library.png" alt="Ilustração da Biblioteca Triple Peaks"/>
+          <img class="header__image" src="images/library.png" alt="Ilustração da Biblioteca Triple Peaks" />
         </div>
 
         <div class="header__footer">
@@ -117,106 +115,121 @@
             </article>
           </div>
         </section>
-    <section class="events" id="events" aria-label="Próximos Eventos">
-      <div class="events__container">
-        <div class="events__info">
-          <p class="events__label">Próximos eventos:</p>
-          <h2 class="events__title">Em homenagem à Joan Feynman: Mulheres na Astrofísica</h2>
 
-          <div class="info-line">
-            <img class="events events_icon" src="images/icon_calendar.png" alt="Calendário">
-            <span class="info-text">Segunda-feira, 12 de janeiro</span>
-          </div>
-          <div class="info-line">
-            <img class="events events_icon" src="images/icon_pin.png" alt="Localização">
-            <span class="info-text">Sala de Conferências da Biblioteca Triple Peaks</span>
-          </div>
+        <section class="events" id="events" aria-label="Próximos Eventos">
+          <div class="events__container">
 
-          <p class="events__description">
-            Nesse evento, que homenageia o homônimo da biblioteca, nossa palestrante convidada nos levará a uma jornada
-            explorando algumas das mais proeminentes pesquisadoras do mundo da ciência espacial. É fácil acreditar na ideia
-            equivocada de que esse campo era dominado principalmente por homens, mas nossa palestra tem como objetivo mudar
-            essa visão.
-          </p>
+            <div class="events__content">
+              <p class="events__label">Próximos eventos:</p>
+              <h2 class="events__heading">Em homenagem à Joan Feynman: Mulheres na Astrofísica</h2>
 
-          <a href="#" class="events__link">Mais eventos &rarr;</a>
-        </div>
+              <ul class="events__info-section">
+                <li class="event-info__item">
+                  <img class="event-info__icon" src="images/icon_calendar.png" alt="Calendário">
+                  <span class="event-info__text">Segunda-feira, 12 de janeiro</span>
+                </li>
+                <li class="event-info__item">
+                  <img class="event-info__icon" src="images/icon_pin.png" alt="Localização">
+                  <span class="event-info__text">Sala de Conferências da Biblioteca Triple Peaks</span>
+                </li>
+              </ul>
 
-        <div class="events__gallery">
-          <img class="cafe-image" src="images/cafe.png" alt="Cafeteria Triple Peaks">
+              <p class="events__description">
+                Nesse evento, que homenageia o homônimo da biblioteca, nossa palestrante convidada nos levará a uma
+                jornada
+                explorando algumas das mais proeminentes pesquisadoras do mundo da ciência espacial. É fácil acreditar
+                na ideia
+                equivocada de que esse campo era dominado principalmente por homens, mas nossa palestra tem como
+                objetivo mudar
+                essa visão.
+              </p>
 
-          <div class="person person-1">
-            <img src="images/person_feynman.png" alt="Joan Feynman">
-            <span>Joan Feynman</span>
+              <a href="#" class="events__more">Mais eventos &rarr;</a>
+            </div>
+
+            <div class="events__cover">
+              <img class="events__image" src="images/cafe.png" alt="Cafeteria Triple Peaks">
+
+              <div class="person person_name_feynman">
+                <img class="person__image person__image_size_l" src="images/person_feynman.png" alt="Joan Feynman">
+                <span>Joan Feynman</span>
+              </div>
+
+              <div class="person person_name_tarter">
+                <img class="person__image person__image_size_m" src="images/person_tarter.png" alt="Jill Tarter">
+                <span>Jill Tarter</span>
+              </div>
+
+              <div class="person person_name_burbidge">
+                <img class="person__image person__image_size_m" src="images/person_burbidge.png"
+                  alt="Margaret Burbidge">
+                <span>Margaret Burbidge</span>
+              </div>
+
+              <div class="person person_name_mitchell">
+                <img class="person__image person__image_size_s" src="images/person_mitchell.png" alt="Maria Mitchell">
+                <span>Maria Mitchell</span>
+              </div>
+
+              <div class="person person_name_cannon">
+                <img class="person__image person__image_size_s" src="images/person_cannon.png" alt="Annie Jump Cannon">
+                <span>Annie Jump Cannon</span>
+              </div>
+            </div>
+
           </div>
-          <div class="person person-2">
-            <img src="images/person_tarter.png" alt="Jill Tarter">
-            <span>Jill Tarter</span>
+        </section>
+
+        <section class="membership" id="membership" aria-label="Ser Membro">
+          <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
+          <div class="membership__steps">
+            <div class="membership__step">
+              <h3>Passo 1 &rarr;</h3>
+              <p>Preencha o formulário de filiação online.</p>
+            </div>
+            <div class="membership__step">
+              <h3>Passo 2 &rarr;</h3>
+              <p>Venha retirar seu cartão da biblioteca na recepção.</p>
+            </div>
+            <div class="membership__step">
+              <h3>Passo 3 &rarr;</h3>
+              <p>Assine o verso do cartão.</p>
+            </div>
+            <div class="membership__step">
+              <h3>Passo 4 &#10022;</h3>
+              <p>Aproveite todos os incríveis benefícios de ser membro!</p>
+            </div>
           </div>
-          <div class="person person-3">
-            <img src="images/person_burbidge.png" alt="Margaret Burbidge">
-            <span>Margaret Burbidge</span>
+        </section>
+      </main>
+
+      <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="images/logo_white.png" alt="Biblioteca Triple Peaks">
           </div>
-          <div class="person person-4">
-            <img src="images/person_mitchell.png" alt="Maria Mitchell">
-            <span>Maria Mitchell</span>
+          <div class="footer__info">
+            <div>
+              <h4>Horário de Funcionamento</h4>
+              <p>Dias úteis: 9h - 20h</p>
+              <p>Finais de semana: 10h às 18h</p>
+            </div>
+            <div class="div div_redes">
+              <h4>Redes Sociais</h4>
+              <div class="footer__redes">
+                <div class="image image_redes"><img src="images/facebook_white.png" alt="facebook icon"></div>
+                <p>Facebook</p>
+              </div>
+              <div class="footer__redes">
+                <div class=" image image_redes"><img src="images/instagram_white.png" alt="instagram icon"></div>
+                <p>Instagram</p>
+              </div>
+            </div>
           </div>
-          <div class="person person-5">
-            <img src="images/person_cannon.png" alt="Annie Jump Cannon">
-            <span>Annie Jump Cannon</span>
-          </div>
         </div>
-      </div>
-    </section>
-    <section class="membership" id="membership" aria-label="Ser Membro">
-      <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
-      <div class="membership__steps">
-        <div class="membership__step">
-          <h3>Passo 1 &rarr;</h3>
-          <p>Preencha o formulário de filiação online.</p>
-        </div>
-        <div class="membership__step">
-          <h3>Passo 2 &rarr;</h3>
-          <p>Venha retirar seu cartão da biblioteca na recepção.</p>
-        </div>
-        <div class="membership__step">
-          <h3>Passo 3 &rarr;</h3>
-          <p>Assine o verso do cartão.</p>
-        </div>
-        <div class="membership__step">
-          <h3>Passo 4 &#10022;</h3>
-          <p>Aproveite todos os incríveis benefícios de ser membro!</p>
-        </div>
-      </div>
-    </section>
-    </main>
-<footer class="footer" id="contacts">
-  <div class="footer__content">
-    <div class="footer__logo">
-      <img src="images/logo_white.png" alt="Biblioteca Triple Peaks">
-    </div>
-    <div class="footer__info">
-      <div>
-        <h4>Horário de Funcionamento</h4>
-        <p>Dias úteis: 9h - 20h</p>
-        <p>Finais de semana: 10h às 18h</p>
-      </div>
-      <div class="div div_redes">
-        <h4>Redes Sociais</h4>
-        <div class="footer__redes">
-          <div class="image image_redes"><img src="images/facebook_white.png" alt="facebook icon"></div>
-          <p>Facebook</p>
-        </div>
-        <div class="footer__redes">
-          <div class=" image image_redes"><img src="images/instagram_white.png" alt="instagram icon"></div>
-          <p>Instagram</p>
-        </div>
-      </div>
-    </div>
-  </div>
-      <p class="footer__copyright">© 2025 Marcelo Borges</p>
-    </footer>
-      </main><footer id="contacts"></footer>
+        <p class="footer__copyright">© 2025 Marcelo Borges</p>
+      </footer>
     </div>
   </body>
+
 </html>
