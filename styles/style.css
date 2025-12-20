@@ -172,6 +172,13 @@
   width: 100%;
 }
 
+.events__title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
 .events__container {
   max-width: 1200px;
   margin: 0 auto;
@@ -251,7 +258,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Necessário para posicionar as pessoas absolutamente dentro desta área */
 }
 
 .events__image {
@@ -270,6 +276,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.person__caption {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .person span {
