@@ -20,17 +20,18 @@
 }
 
 .nav__links {
-  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 30px;
   font-weight: bold;
 }
 
 .nav__link {
-  margin-top: 0;
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-  padding: 60px;
-  margin-right: 50px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  transition: opacity 0.3s;
 }
 
 .nav__link a {
@@ -39,8 +40,9 @@
   font-weight: bold;
 }
 
-.nav__link a:hover {
+.nav__link:hover {
   text-decoration: underline;
+  opacity: 0.7;
 }
 
 .header {
@@ -247,11 +249,7 @@
 }
 
 .events__cover {
-  flex: 1;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .events__image {
@@ -263,10 +261,6 @@
 
 .person {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
 .person__caption {
