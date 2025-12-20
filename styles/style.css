@@ -298,14 +298,14 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.person__image {
+..person__image {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 7. Correção: Tamanhos das imagens */
+/* Classes de dimensionamento (Modificadores BEM) */
 .person__image_size_s {
   width: 60px;
   height: 60px;
