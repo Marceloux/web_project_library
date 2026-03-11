@@ -80,9 +80,7 @@
 }
 
 .header__image {
-  width: 646px;
-  height: auto;
-  border-radius: 12px;
+  max-width: 636px
 }
 
 .header__footer {
