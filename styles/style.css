@@ -29,13 +29,20 @@
   gap: 20px;
 }
 
-.nav__link a {
+.nav__links {
+  margin-top: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav__links a {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
 
-.nav__link a:hover {
+.nav__links a:hover {
   text-decoration: underline;
 }
 
