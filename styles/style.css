@@ -21,9 +21,9 @@
 }
 
 .nav__link {
+  color: #000000;
   text-decoration: none;
-  font-weight: 400;
-  color: #000;
+  font-weight: bold;
 }
 
 .nav__links {
@@ -32,16 +32,6 @@
   column-gap: 20px;
   list-style-type: none;
   display: flex;
-}
-
-.nav__links a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__links a:hover {
-  text-decoration: underline;
 }
 
 .header {
@@ -138,7 +128,7 @@
 .card {
   background: #ffffff;
   border-radius: 6px;
-  padding: 40px 40px 20px 40px;
+  padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   width: 360px;
   height: 420px;
@@ -224,10 +214,10 @@
 }
 
 .events__heading {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  margin-bottom: 30px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
 }
 
 .events__info-section {
@@ -408,4 +398,32 @@
   margin-left: 2rem;
   padding-bottom: 30px;
 }
-\n.event-info__item {\n  display: flex;\n  align-items: center;\n  margin-bottom: 4px;\n  font-weight: 500;\n}\n\n.event-info__icon {\n  background-repeat: no-repeat;\n  background-position: center;\n  margin-right: 12px;\n  width: 24px;\n  height: 24px;\n}\n\n.event-info__text {\n  font-size: 20px;\n  font-weight: 500;\n  line-height: 30px;\n  margin: 0;\n}\n
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__icon_type_calendar {
+  background-image: url(../images/icon_calendar.png);
+}
+
+.event-info__icon_type_pin {
+  background-image: url(../images/icon_pin.png);
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
