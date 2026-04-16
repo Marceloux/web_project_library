@@ -4,5 +4,6 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
-  "html.format.indentInnerHtml": true
+  "html.format.indentInnerHtml": true,
+  "livePreview.defaultPreviewPath": "/index.html"
 }
