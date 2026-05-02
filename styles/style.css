@@ -1,9 +1,9 @@
 /* ===== PAGE ===== */
 .page {
-  min-width: 320px;
-  max-width: 1440px;
+  min-width: 1100px;
+  max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
@@ -28,7 +28,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  gap: 20px;
+  column-gap: 20px;
 }
 
 .nav__link {
@@ -56,22 +56,23 @@
 }
 
 .header__title {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1.15;
-  max-width: 500px;
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 76px;
+  max-width: 635px;
   margin: 0;
 }
 
 .header__description {
-  font-size: 18px;
-  line-height: 1.5;
-  max-width: 480px;
-  margin: 20px 0 0;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 515px;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
-  width: 430px;
+  max-width: 636px;
 }
 
 .header__link {
@@ -89,9 +90,10 @@
 }
 
 .header__footer {
-  padding: 20px 80px;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: right;
-  color: #000000;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
 }
