@@ -115,27 +115,20 @@
             </article>
           </div>
         </section>
+
         <section class="events" id="events" aria-label="Próximos Eventos">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
             <h3 class="events__title">
-             Em homenagem à Joan Feynman: Mulheres na Astrofísica
+              Em homenagem à Joan Feynman: Mulheres na Astrofísica
             </h3>
             <div class="event-info events__info-section">
               <div class="event-info__item">
-                <img
-                  src="./images/icon_calendar.svg"
-                  alt="Calendar icon"
-                  class="event-info__icon"
-                />
+                <img src="./images/icon_calendar.svg" alt="Calendar icon" class="event-info__icon" />
                 <p class="event-info__text">Segunda-feira, 12 de janeiro</p>
               </div>
               <div class="event-info__item">
-                <img
-                  src="./images/icon_pin.svg"
-                  alt="Pin icon"
-                  class="event-info__icon"
-                />
+                <img src="./images/icon_pin.svg" alt="Pin icon" class="event-info__icon" />
                 <p class="event-info__text">
                   Sala de Conferências da Biblioteca Triple Peaks e Online
                 </p>
@@ -182,34 +175,53 @@
             </div>
           </div>
         </section>
+
+        <!-- CORRIGIDO: classes step (não membership__step) e estrutura ul/li conforme o roteiro -->
         <section class="membership" id="membership" aria-label="Ser Membro">
           <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
-          <div class="membership__steps">
-            <div class="membership__step">
-              <h3>Passo 1 &rarr;</h3>
-              <p>Preencha o formulário de filiação online.</p>
-            </div>
-            <div class="membership__step">
-              <h3>Passo 2 &rarr;</h3>
-              <p>Venha retirar seu cartão da biblioteca na recepção.</p>
-            </div>
-            <div class="membership__step">
-              <h3>Passo 3 &rarr;</h3>
-              <p>Assine o verso do cartão.</p>
-            </div>
-            <div class="membership__step">
-              <h3>Passo 4 &#10022;</h3>
-              <p>Aproveite todos os incríveis benefícios de ser membro!</p>
-            </div>
-          </div>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Passo 1
+                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon" />
+              </h3>
+              <p class="step__description">Preencha o formulário de filiação online.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 2
+                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon" />
+              </h3>
+              <p class="step__description">Venha retirar seu cartão da biblioteca na recepção.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 3
+                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon" />
+              </h3>
+              <p class="step__description">Assine o verso do cartão.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Passo 4
+                <img src="./images/icon_step_finish.svg" alt="icon finish" class="step__icon" />
+              </h3>
+              <p class="step__description">Aproveite todos os incríveis benefícios de ser membro!</p>
+            </li>
+          </ul>
         </section>
       </main>
 
+      <!-- CORRIGIDO: estrutura do rodapé conforme o roteiro -->
       <footer class="footer" id="contacts">
         <div class="footer__columns">
-          <div class="footer__column footer__column_content_social">
+
+          <!-- Coluna 1: Logo (sem o modificador _content_social) -->
+          <div class="footer__column">
             <img class="footer__logo" src="images/logo_white.png" alt="Biblioteca Triple Peaks">
           </div>
+
+          <!-- Coluna 2: Horário de Funcionamento -->
           <div class="footer__column footer__column_content_hours">
             <h4 class="footer__column-heading">Horário de Funcionamento</h4>
             <ul class="footer__list">
@@ -217,17 +229,26 @@
               <li class="footer__list-item">Finais de semana: 10h às 18h</li>
             </ul>
           </div>
+
+          <!-- Coluna 3: Redes Sociais (corrigido com as classes certas) -->
           <div class="footer__column footer__column_content_social">
-            <h4>Redes Sociais</h4>
-            <div class="footer__redes">
-              <div class="image image_redes"><img src="images/facebook_white.png" alt="facebook icon"></div>
-              <p>Facebook</p>
-            </div>
-            <div class="footer__redes">
-              <div class=" image image_redes"><img src="images/instagram_white.png" alt="instagram icon"></div>
-              <p>Instagram</p>
-            </div>
+            <h4 class="footer__column-heading">Redes Sociais</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img src="images/facebook_white.png" alt="Facebook" class="footer__social-icon" />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img src="images/instagram_white.png" alt="Instagram" class="footer__social-icon" />
+                  Instagram
+                </a>
+              </li>
+            </ul>
           </div>
+
         </div>
         <p class="footer__copyright">© 2025 Marcelo Borges</p>
       </footer>
