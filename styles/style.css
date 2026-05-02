@@ -337,10 +337,15 @@
 }
 
 .membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.step {
+  max-width: 285px;
 }
 
 .membership__step {
