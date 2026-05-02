@@ -1,5 +1,7 @@
 /* ===== PAGE ===== */
 .page {
+  min-width: 320px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
@@ -56,22 +58,20 @@
 .header__title {
   font-size: 60px;
   font-weight: 700;
-  line-height: 68px;
-  max-width: 530px;
-  margin: 0 0 20px;
+  line-height: 1.15;
+  max-width: 500px;
+  margin: 0;
 }
 
 .header__description {
   font-size: 18px;
-  line-height: 24px;
-  max-width: 400px;
-  margin: 0;
+  line-height: 1.5;
+  max-width: 480px;
+  margin: 20px 0 0;
 }
 
 .header__image {
-  width: 458px;
-  height: 428px;
-  object-fit: contain;
+  width: 430px;
 }
 
 .header__link {
