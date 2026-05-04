@@ -73,7 +73,9 @@
 }
 
 .header__footer {
-  margin-top: auto;
+  color: #777;
+  text-align: end;
+  padding: 0px;
 }
 
 .header__content {
