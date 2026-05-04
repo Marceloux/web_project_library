@@ -27,7 +27,7 @@
 
 .nav__logo {
   height: 80px;
-  width: 57px;
+  width: 58px;
 }
 
 .nav__links {
@@ -41,6 +41,8 @@
 
 .nav__link {
   color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .nav__link:hover {
@@ -72,11 +74,11 @@
 
 .header__footer {
   margin-top: auto;
-  width: 100%;
+}
+
+.header__content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .header__link {
