@@ -41,8 +41,6 @@
 
 .nav__link {
   color: #000000;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .nav__link:hover {
@@ -98,7 +96,7 @@
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #f2f2f2;
@@ -169,6 +167,7 @@
   color: #1f69c9;
 }
 
+/* Uncomment the styles below */
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -181,6 +180,7 @@
   max-width: 100%;
 }
 
+/* Uncomment the styles below */
 .person {
   position: absolute;
   display: flex;
@@ -246,6 +246,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
+  font-weight: 500;
   margin: 0 0 24px;
   color: #fff;
 }
@@ -309,13 +310,16 @@
 }
 
 .membership {
-  padding: 100px 0 140px;
-  background-color: #f2f2f2;
+  padding: 80px 0 100px;
+  background-color: #057bf2;
+  color: #ffffff;
+  text-align: center;
 }
 
 .membership__title {
   max-width: 574px;
   margin: 0 auto;
+  margin-bottom: 64px;
   text-align: center;
   font-size: 44px;
   font-weight: 500;
