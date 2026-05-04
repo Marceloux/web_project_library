@@ -31,7 +31,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   display: flex;
   column-gap: 20px;
   list-style-type: none;
